@@ -1,0 +1,130 @@
+:root {
+  --bg-color: #F5F5F5;
+  --gray-blue: #BDCBE0;
+  --navy: #6E8BB7;
+  --lg-blue: #BDD7FF;
+  --title-blue: #2B589D;
+  --dark-gray: #353535;
+  --light-gray: #6A6A6A;
+  --font: 'M PLUS 1', sans-serif;
+}
+.home-nav{
+  width: 375px;
+  height: 63px;
+}
+.nav-icons {
+  display: flex;
+}
+.navigation {
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  left: 20px;
+  top: 35px;
+  object-fit: cover;
+}
+.chart {
+  position: absolute;
+  width: 38px;
+  height: 32px;
+  left: 336px;
+  top: 31px;
+}
+.categories-container{
+  position: relative;
+  right: 12px;
+}
+.categories{
+  display: flex;
+  list-style: none;
+}
+.categories li{
+  border-radius: 22px;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  position: relative;
+  height: 34px;
+  width: 72px;
+  margin-right: 29px;
+}
+.all.active{
+  background-color: var(--navy);
+  color: var(--lg-blue);
+  padding: 4px 24px 1px 34px;
+}
+.coqueto{
+  background-color: var(--lg-blue);
+  color: var(--navy);
+  padding: 4px 24px 1px 26px;
+}
+.casual{
+  background-color: var(--lg-blue);
+  color: var(--navy);
+  padding: 4px 29px 1px 28px;
+}
+.MobileNav-container{
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  top: 678px;
+  background-color: var(--bg-color);
+}
+.nav-icons{
+  display: flex;
+}
+.nav-icons img{
+  margin-right: 70px;
+  height: 26px;
+  width: 26px;
+}
+.HomeAd-container {
+  position: relative;
+  width: 344px;
+  height: 194px;
+  left: 20px;
+  background-color: var(--gray-blue);
+  border-radius: 22px;
+}
+.titleAd {
+    position: relative;
+    top: 26px;
+    left: 15px;
+    font-family: "M PLUS 1";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    width: 136px;
+  }
+  .pAd{
+    width: 122px;
+    font-size: 13px;
+    font-family: var(--font);
+    margin-left: 15px;
+    position: relative;
+    top: 28px;
+    line-height: 16px;
+    color: var(--dark-gray);
+  }
+  .pAd2{
+    font-size: 13px;
+    font-family: var(--font);
+    margin-left: 15px;
+    position: relative;
+    top: 12px;
+    line-height: 16px;
+    color: var(--dark-gray);
+  }
+.cowboy-hat {
+  width: 176px;
+  height: 148px;
+  position: relative;
+  bottom: 140px;
+  left: 122px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.37));
+}
+.product-content{
+  width: 450px;
+}
