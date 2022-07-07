@@ -128,3 +128,36 @@
 .product-content{
   width: 450px;
 }
+.title2{
+  font-family: "M PLUS 1";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--title-blue);
+    position: relative;
+    left: 38px;
+    font-size: 1.6rem;
+}
+.products{
+  position: relative;
+  left: 28px;
+}
+.productCard{
+  display: inline-block;
+  width: 172px;
+  height: 162px;
+  border-radius: 22px;
+  background-color: var(--lg-blue);
+  margin: 0 22px 22px 0;
+}
+.productImage{
+  border-radius: 22px;
+  height: 162px;
+  width: 172px;
+  object-fit: cover;
+  box-shadow: #6A6A6A 1px 1px 2px 1px;
+}
+.productImage.dos,
+.productImage.ocho{
+ background-color: var(--bg-color);
+}
